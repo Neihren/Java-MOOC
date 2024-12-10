@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Part02_02 {
+    
+    //Programming exercice: Reprint
     public static void main(String[] args) {
         Scanner scan;
         int numberOfRepeat;
