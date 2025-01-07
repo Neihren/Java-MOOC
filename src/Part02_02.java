@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Part02_02 {
-    
-    //Programming exercice: Reprint
+
     public static void main(String[] args) {
         Scanner scan;
         int numberOfRepeat;
@@ -11,13 +10,18 @@ public class Part02_02 {
         
         System.out.println("How Many times ?");
         numberOfRepeat = scan.nextInt();
-        printText(numberOfRepeat);
+        while (numberOfRepeat > 0) {
+            printText();
+            numberOfRepeat--;
+        }
         scan.close();
     }
-
-    public static void printText(int repeat) {
-        for (int i = 0; i < repeat; i++) {
-            System.out.println("In a hole in the groud there lived a method");
-        }
+    
+    // Don't change the next line that defines the method!
+    // (We aren't giving a method a parameter yet)
+    public static void printText() {
+        // write some code here
+        System.out.println("In a hole in the ground there lived a method");
+        
     }
 }

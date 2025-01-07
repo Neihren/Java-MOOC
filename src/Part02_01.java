@@ -6,6 +6,6 @@ public class Part02_01 {
     }
 
     public static void printText() {
-        System.out.println("In a hole in the groud there lived a method");
+        System.out.println("In a hole in the ground there lived a method");
     }
 }
